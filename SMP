@@ -1,0 +1,61 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+clear
+echo -e "\e[1;32m===== MANUAL SIMPLES DO TERMUX =====\e[0m"
+echo ""
+
+echo -e "\e[1;34mcd\e[0m"
+echo "Muda de pasta"
+echo "Exemplo: cd Downloads"
+echo "Dica: cd .. volta uma pasta"
+echo ""
+
+echo -e "\e[1;34mls\e[0m"
+echo "Lista arquivos e pastas"
+echo "Exemplo: ls -la (mostra arquivos ocultos)"
+echo ""
+
+echo -e "\e[1;34mpwd\e[0m"
+echo "Mostra caminho da pasta atual"
+echo ""
+
+echo -e "\e[1;34mmkdir\e[0m"
+echo "Cria pasta nova"
+echo "Exemplo: mkdir MeusArquivos"
+echo ""
+
+echo -e "\e[1;34mtouch\e[0m"
+echo "Cria arquivo vazio"
+echo "Exemplo: touch script.sh"
+echo ""
+
+echo -e "\e[1;34mnano\e[0m"
+echo "Editor de texto no terminal"
+echo "Exemplo: nano script.sh"
+echo "Para salvar: CTRL+O, para sair: CTRL+X"
+echo ""
+
+echo -e "\e[1;34mchmod +x\e[0m"
+echo "Permite executar scripts"
+echo "Exemplo: chmod +x script.sh"
+echo ""
+
+echo -e "\e[1;34m./script.sh\e[0m"
+echo "Executa o script"
+echo ""
+
+echo -e "\e[1;34mpkg\e[0m"
+echo "Gerenciador de pacotes do Termux"
+echo "Exemplo: pkg install python"
+echo ""
+
+echo -e "\e[1;33mIMPORTANTE:\e[0m"
+echo -e "\e[1;31mNunca use sudo ou root no Termux!\e[0m"
+echo "Pode danificar seu celular"
+echo ""
+
+echo -e "\e[1;32mPara acessar seus arquivos do celular use:\e[0m"
+echo "termux-setup-storage (somente uma vez)"
+echo ""
+
+echo "Fim do manual simples."0
